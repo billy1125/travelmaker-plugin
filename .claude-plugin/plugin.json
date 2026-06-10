@@ -1,0 +1,13 @@
+{
+  "name": "travelmaker",
+  "version": "0.1.0",
+  "description": "以 Markdown 檔案為核心的旅遊規劃工作流程：初始化行程專案、討論前讀取全部資料、同步更新行程文件、整理參考網站摘要，並附行程規劃與審查代理人。",
+  "author": {
+    "name": "Cho-Hsun Lu",
+    "email": "billy1125@gmail.com"
+  },
+  "homepage": "https://github.com/billy1125/travelmaker-plugin",
+  "repository": "https://github.com/billy1125/travelmaker-plugin",
+  "license": "MIT",
+  "keywords": ["travel", "itinerary", "trip-planning", "zh-tw"]
+}
