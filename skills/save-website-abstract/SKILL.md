@@ -1,7 +1,7 @@
 ---
 name: save-website-abstract
 description: 將討論中抓取的新網站內容整理成摘要，寫入 assets/website_abstract.md
-allowed-tools: Read Write Edit Glob WebFetch
+allowed-tools: Read, Write, Edit, Glob, WebFetch
 ---
 
 討論結束後，針對本次討論中實際閱讀過、且在 `assets/reference_website.md` 中**沒有出現過**的網站，整理摘要並歸入 `assets/website_abstract.md`。
@@ -23,13 +23,13 @@ allowed-tools: Read Write Edit Glob WebFetch
 ### 3. 確認或建立 assets/website_abstract.md
 
 - 讀取 `assets/website_abstract.md`（若存在）
-- 若檔案不存在，依 `reference/website_abstract_format.md` 的範本建立初始結構（含四個空白分類區塊）
+- 若檔案不存在，依 `reference/website_abstract_format.md` 的範本建立初始結構（含五個空白分類區塊）
 
 ### 4. 為每個新網站撰寫摘要
 
 針對每個需要整理的 URL：
 
-1. **判斷分類**（交通 / 美食 / 購物 / 景點）  
+1. **判斷分類**（交通 / 美食 / 購物 / 景點 / 行李準備）  
    若網站涵蓋多類，選最主要的分類；在「適用範圍」欄位說明其他面向。
 
 2. **撰寫摘要條目**，格式如下：
@@ -59,7 +59,7 @@ allowed-tools: Read Write Edit Glob WebFetch
 
 ### 5. 寫入 assets/website_abstract.md
 
-將各條目寫入對應的分類區塊（交通 / 美食 / 購物 / 景點）：
+將各條目寫入對應的分類區塊（交通 / 美食 / 購物 / 景點 / 行李準備）：
 
 - 用 Edit 工具將新條目插入對應分類區塊的末尾
 - 更新檔案頂部的「更新日」為今日日期

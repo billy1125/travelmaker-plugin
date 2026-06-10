@@ -1,7 +1,7 @@
 ---
 name: discuss-itinerary
 description: 行程討論前的準備步驟：讀取全部行程與參考資源，再進行有根據的討論
-allowed-tools: Read Glob WebFetch WebSearch
+allowed-tools: Read, Glob, WebFetch, WebSearch
 ---
 
 每次討論行程前執行此技能，確保討論有完整的現有行程資料、交通指南與參考資源作為基礎，不憑空推測。
@@ -13,7 +13,7 @@ allowed-tools: Read Glob WebFetch WebSearch
 讀取以下檔案（若不存在則略過，並在報告時告知使用者）：
 
 - `itinerary.md` — 總行程概覽（各日住宿、主題、行程原則）
-- `assets/reference_website.md` — 可用參考網站清單（交通、美食、購物、景點）
+- `assets/reference_website.md` — 可用參考網站清單（交通、美食、購物、景點、行李準備）
 - `assets/website_abstract.md` — 已整理的網站摘要（若檔案存在則讀取）
 
 若連 `itinerary.md` 都不存在，提醒使用者先執行 `/new-trip` 初始化專案，再進行討論。

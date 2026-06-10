@@ -1,7 +1,7 @@
 ---
 name: new-trip
 description: 初始化一個新的旅遊規劃專案：建立目錄結構、行程骨架檔案與工作流程說明（CLAUDE.md）
-allowed-tools: Read Write Glob Bash AskUserQuestion
+allowed-tools: Read, Write, Glob, Bash, AskUserQuestion
 ---
 
 在目前的工作目錄初始化一個旅遊規劃專案。執行完成後，使用者即可用 `/discuss-itinerary` → 討論 → `/update-itinerary` → `/save-website-abstract` 的循環逐步完善行程。
@@ -48,6 +48,7 @@ allowed-tools: Read Write Glob Bash AskUserQuestion
 - `days/MMDD.md` 至少包含 `# {MM/DD}（Day {N}）` 標題、住宿欄位與 `## 行程` 區塊（內容可為「待規劃」）
 - 抵達日與回程日的每日檔案需填入航班資訊欄位
 - `CLAUDE.md` 範本中的 `{...}` 佔位全部替換為實際資料；資料未定者填「待訂」「待規劃」
+- `luggage_items.md`（行李清單）**不在初始化時建立**，於後續討論中視需要產生於專案根目錄
 
 ### 4. 回報結果
 

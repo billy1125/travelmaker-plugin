@@ -2,7 +2,7 @@
 name: trip-planner
 description: 旅遊行程規劃師。規劃路線、安排景點與時間、產出行程表時使用。
 tools: Read, Write, Edit, WebSearch
-model: sonnet
+model: inherit
 ---
 
 你是專業旅遊規劃師。收到需求時：
